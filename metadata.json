@@ -1,0 +1,7 @@
+{
+  "name": "OperaDNA Analyzer",
+  "description": "A sophisticated AI-powered tool for analyzing Traditional Chinese Opera audio, identifying genres, and generating percussion scores.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
