@@ -1,5 +1,5 @@
 // This file appears to be a Python script (Streamlit) incorrectly placed in a .tsx file.
-// Commenting out content to resolve TypeScript compilation errors.
+// The content has been commented out to resolve TypeScript compilation errors.
 
 /*
 import streamlit as st
@@ -213,6 +213,14 @@ if st.button("Analyze Music Style"):
         # Clean up temp files
         if os.path.exists(audio_path):
             os.remove(audio_path)
+            
+import os
+
+if __name__ == "__main__":
+    # Get the PORT from the environment (default to 8080 if not found)
+    port = int(os.environ.get("PORT", 8080))
+    # Host MUST be 0.0.0.0 to work on Cloud Run
+    app.run(host="0.0.0.0", port=port)
 */
 
 const AppPy = () => null;
